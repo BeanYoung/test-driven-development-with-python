@@ -99,6 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+superlists/db.sqlite3
 
 # vim
 *.swp
