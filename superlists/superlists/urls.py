@@ -23,5 +23,6 @@ urlpatterns = [
     path('lists/the-only-list-in-the-world',
          lists.views.list_view,
          name='list_view'),
+    path('lists/new', lists.views.new_list, name='new_list'),
     path('admin/', admin.site.urls),
 ]
